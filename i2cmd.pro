@@ -1,4 +1,4 @@
-update=Fri 12 Aug 2016 02:07:41 AM CST
+update=Fri 12 Aug 2016 04:52:39 AM CST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=libs/ntc-chip
 [eeschema/libraries]
 LibName1=power
 LibName2=device
