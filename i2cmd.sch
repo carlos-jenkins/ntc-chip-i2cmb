@@ -61,7 +61,7 @@ U 1 1 57AD7177
 P 9200 2000
 F 0 "P1" H 9200 2200 50  0000 C CNN
 F 1 "CONN_02X03" H 9200 1800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x06" H 9200 800 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 9200 800 50  0001 C CNN
 F 3 "" H 9200 800 50  0000 C CNN
 	1    9200 2000
 	1    0    0    -1  
@@ -72,7 +72,7 @@ U 1 1 57AD7364
 P 6300 5250
 F 0 "SW1" H 6600 5300 50  0000 C CNN
 F 1 "Switch_DPST" H 6600 5200 50  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:SW_PUSH_SMALL" H 6300 5250 50  0001 C CNN
+F 2 "libs:sw_push_small" H 6300 5250 50  0001 C CNN
 F 3 "" H 6300 5250 50  0000 C CNN
 	1    6300 5250
 	1    0    0    -1  
@@ -441,13 +441,13 @@ Wire Wire Line
 	6600 4800 6600 5550
 Connection ~ 6600 5450
 Wire Wire Line
-	6150 3250 6300 3250
+	6150 3250 6400 3250
 Wire Wire Line
 	6300 3250 6300 3200
 Wire Wire Line
 	6150 3350 6150 3450
 Wire Wire Line
-	6150 3450 6300 3450
+	6150 3450 6400 3450
 Wire Wire Line
 	6300 3450 6300 3500
 Wire Wire Line
@@ -579,7 +579,7 @@ U 1 1 57ADF755
 P 9200 2750
 F 0 "P2" H 9200 2950 50  0000 C CNN
 F 1 "CONN_02X03" H 9200 2550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x06" H 9200 1550 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 9200 1550 50  0001 C CNN
 F 3 "" H 9200 1550 50  0000 C CNN
 	1    9200 2750
 	1    0    0    -1  
@@ -654,7 +654,7 @@ U 1 1 57ADF7CD
 P 9200 3500
 F 0 "P3" H 9200 3700 50  0000 C CNN
 F 1 "CONN_02X03" H 9200 3300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x06" H 9200 2300 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 9200 2300 50  0001 C CNN
 F 3 "" H 9200 2300 50  0000 C CNN
 	1    9200 3500
 	1    0    0    -1  
@@ -729,7 +729,7 @@ U 1 1 57ADFA1A
 P 9200 4200
 F 0 "P4" H 9200 4400 50  0000 C CNN
 F 1 "CONN_02X03" H 9200 4000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x06" H 9200 3000 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 9200 3000 50  0001 C CNN
 F 3 "" H 9200 3000 50  0000 C CNN
 	1    9200 4200
 	1    0    0    -1  
@@ -804,7 +804,7 @@ U 1 1 57ADFA42
 P 9200 4950
 F 0 "P5" H 9200 5150 50  0000 C CNN
 F 1 "CONN_02X03" H 9200 4750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x06" H 9200 3750 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 9200 3750 50  0001 C CNN
 F 3 "" H 9200 3750 50  0000 C CNN
 	1    9200 4950
 	1    0    0    -1  
@@ -879,7 +879,7 @@ U 1 1 57ADFA6A
 P 9200 5700
 F 0 "P6" H 9200 5900 50  0000 C CNN
 F 1 "CONN_02X03" H 9200 5500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x06" H 9200 4500 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 9200 4500 50  0001 C CNN
 F 3 "" H 9200 4500 50  0000 C CNN
 	1    9200 5700
 	1    0    0    -1  
@@ -979,4 +979,16 @@ Wire Wire Line
 	6000 5050 5700 5050
 Text Notes 5900 4350 0    60   ~ 0
 Power Button
+Wire Wire Line
+	6400 3200 6800 3200
+Wire Wire Line
+	6400 3250 6400 3200
+Connection ~ 6300 3250
+Connection ~ 6550 3200
+Wire Wire Line
+	6400 3500 6800 3500
+Wire Wire Line
+	6400 3450 6400 3500
+Connection ~ 6300 3450
+Connection ~ 6550 3500
 $EndSCHEMATC
